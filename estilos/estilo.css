@@ -32,6 +32,7 @@ header nav{
     margin-left: 30px;
     display: flex;
     justify-content: center;
+    list-style: none;
 }
 header nav ul, footer nav ul {
     display: flex;
@@ -39,6 +40,7 @@ header nav ul, footer nav ul {
     flex-direction: row;
     list-style: none; 
     padding: 0;
+    
 }
 .link-menu {
     display: flex;
@@ -53,6 +55,7 @@ header nav ul, footer nav ul {
     height: 40px;
     text-decoration: none;
     transition: background-color 0.3s;
+    list-style: none;
 }
 .link-menu:hover {
     background-color: rgba(20, 25, 83, 0.9);
