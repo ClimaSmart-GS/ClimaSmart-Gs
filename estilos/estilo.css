@@ -107,13 +107,7 @@ img {
     background-color: #0056b3;
 }
 
-/* 🗺️ Posições dos botões no mapa (ajustáveis) */
-.sul { top: 60%; left: 35%; }
-.norte { top: 40%; left: 25%; }
-.europa { top: 40%; left: 55%; }
-.africa { top: 50%; left: 50%; }
-.asia { top: 45%; left: 70%; }
-.australia { top: 60%; left: 70%; }
+
 
 .info {
     display: none;
@@ -164,6 +158,12 @@ img {
     .info {
         width: 90%;
     }
+    .sul { top: 70%; left: 20%; }
+    .norte { top: 60%; left: 15%; }
+    .europa { top: 62%; left: 52%; }
+    .africa { top: 70%; left: 50%; }
+    .asia { top: 65%; left: 70%; }
+    .australia { top: 72%; left: 70%; }
 }
 
 @media (min-width:600px){
@@ -198,6 +198,12 @@ img {
     .info {
         width: 80%;
     }
+    .sul { top: 90%; left: 20%; }
+    .norte { top: 70%; left: 15%; }
+    .europa { top: 68%; left: 55%; }
+    .africa { top: 80%; left: 50%; }
+    .asia { top: 72%; left: 70%; }
+    .australia { top: 85%; left: 75%; }
 }
 @media (min-width:768px){
     header nav ul, footer nav ul {
@@ -232,6 +238,12 @@ img {
     .info {
         width: 350px;
     }
+    .sul { top: 90%; left: 20%; }
+    .norte { top: 70%; left: 15%; }
+    .europa { top: 70%; left: 55%; }
+    .africa { top: 85%; left: 50%; }
+    .asia { top: 75%; left: 70%; }
+    .australia { top: 90%; left: 75%; }
 }
   
 @media (min-width:992px){
@@ -270,6 +282,12 @@ img {
     .info {
         width: 400px;
     }
+    .sul { top:75%; left: 20%; }
+    .norte { top: 50%; left: 15%; }
+    .europa { top: 58%; left: 55%; }
+    .africa { top: 70%; left: 50%; }
+    .asia { top: 60%; left: 70%; }
+    .australia { top: 80%; left: 75%; }
 }
 @media (min-width:1300px){
     header nav ul, footer nav ul {
@@ -303,6 +321,12 @@ img {
     .info {
         width: 500px;
     }
+    .sul { top:55%; left: 20%; }
+    .norte { top: 40%; left: 15%; }
+    .europa { top: 42%; left: 55%; }
+    .africa { top: 50%; left: 50%; }
+    .asia { top: 45%; left: 70%; }
+    .australia { top: 60%; left: 75%; }
 }
 
     
