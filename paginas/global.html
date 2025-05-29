@@ -5,25 +5,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClimaSmart</title>
     <link rel="stylesheet" href="../estilos/estilo.css">
+    
 </head>
 <body>
     <header>
         <div class="texto-header">
             <h1>ClimaSmart</h1>
-            <p>Simulações e Ações para um Futuro Sustentável</p>
+            <p>Ações por um Futuro Sustentável</p>
         </div>
         <nav>
             <ul>
                 <li><a class="link-menu" href="../index.html">Home</a></li>
                 <li><a class="link-menu" href="#global">Global</a></li>
                 <li><a class="link-menu" href="../paginas/alertas.html">Alertas</a></li>
-                <li><a class="link-menu" href="../paginas/formulario.html">Formulário</a></li>
+                <li><a class="link-menu" href="../paginas/formulario.html">Radar</a></li>
                 <li><a class="link-menu" href="../paginas/psicologia.html">Apoio </a></li>
             </ul>
         </nav>
     </header>
     <main>
-
+        <div>
+            <section>
+                <h2>Global</h2>
+                <h1>🌎 Mapa de Riscos Climáticos</h1>
+                <img src="../img/mapa-mundi.svg" alt="Mapa Mundi">
+                <div class="buttons">
+                  <button class="btn sul" onclick="showInfo('sul')">América do Sul</button>
+                  <button class="btn norte" onclick="showInfo('norte')">América do Norte</button>
+                  <button class="btn europa" onclick="showInfo('europa')">Europa</button>
+                  <button class="btn africa" onclick="showInfo('africa')">África</button>
+                  <button class="btn asia" onclick="showInfo('asia')">Ásia</button>
+                  <button class="btn australia" onclick="showInfo('australia')">Austrália</button>
+                </div>
+                <div class="info" id="info-sul">
+                  <h2>América do Sul</h2>
+                  <p>🌊 Enchentes na Amazônia e Sul. 🔥 Queimadas no Cerrado e Pantanal. ⛱️ Secas no Nordeste.</p>
+                </div>
+                <div class="info" id="info-australia">
+                  <h2>Austrália</h2>
+                  <p>🔥 Incêndios florestais. ⛱️ Secas severas. 🌊 Ciclones no Norte.</p>
+                </div>
+                <div class="info" id="info-europa">
+                  <h2>Europa</h2>
+                  <p>🌡️ Ondas de calor. 🌊 Enchentes na Europa Central e do Sul.</p>
+                </div>
+                <div class="info" id="info-asia">
+                  <h2>Ásia</h2>
+                  <p>🌪️ Tufões. 🌊 Enchentes no Sudeste Asiático. 🔥 Queimadas na Indonésia. ⛱️ Secas na Índia.</p>
+                </div>
+                <div class="info" id="info-norte">
+                  <h2>América do Norte</h2>
+                  <p>🔥 Incêndios na Califórnia e Canadá. 🌪️ Furacões no Caribe. 🌡️ Ondas de calor no México e EUA.</p>
+                </div>
+                <div class="info" id="info-africa">
+                  <h2>África</h2>
+                  <p>⛱️ Secas no Saara e África Austral. 🌊 Enchentes na África Ocidental. 🔥 Queimadas na savana.</p>
+                </div>
+                <script src="../js/script.js"></script>
+            </section>
+        </div>
     </main>
     <footer>
         <nav>
@@ -31,10 +71,8 @@
                 <li><a class="link-menu" href="../paginas/faq.html">FAQS</a></li>
                 <li><a class="link-menu" href="../paginas/integrantes.html">Integrantes</a></li>
                 <li><a class="link-menu" href="../paginas/contato.html">Contato</a></li>
-        
             </ul>
         </nav>
     </footer>
-    
 </body>
 </html>
