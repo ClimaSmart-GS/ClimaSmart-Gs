@@ -68,29 +68,24 @@ header nav ul, footer nav ul {
     margin-left: 3%;
     text-align: justify;
 }
-
 body {
     text-align: center;
     background-color: #f4f4f4;
     font-family: Arial, sans-serif;
 }
-
 h1 {
     color: #333;
     margin-top: 20px;
 }
-
 img {
     max-width: 90%;
     height: auto;
     margin-top: 20px;
 }
-
 .map-container {
     position: relative;
     display: inline-block;
 }
-
 .btn {
     position: absolute;
     background-color: rgba(0, 123, 255, 0.8);
@@ -102,13 +97,9 @@ img {
     font-size: 0.9rem;
     transition: background-color 0.3s;
 }
-
 .btn:hover {
     background-color: #0056b3;
 }
-
-
-
 .info {
     display: none;
     background-color: white;
@@ -118,14 +109,9 @@ img {
     margin: 20px auto;
     border-radius: 10px;
 }
-
 .info h2 {
     margin-top: 0;
 }
-
-
-
-
 @media (max-width:600px){
     header nav ul, footer nav ul {
         display: flex;
@@ -158,6 +144,9 @@ img {
     .info {
         width: 90%;
     }
+    .texto_mapa{
+    font-size: 1rem;
+    }
     .sul { top: 70%; left: 20%; }
     .norte { top: 60%; left: 15%; }
     .europa { top: 62%; left: 52%; }
@@ -165,7 +154,6 @@ img {
     .asia { top: 65%; left: 70%; }
     .australia { top: 72%; left: 70%; }
 }
-
 @media (min-width:600px){
     header nav ul, footer nav ul {
         display: flex;
@@ -192,11 +180,14 @@ img {
         font-size: 1.8rem;
     }
     .btn {
-        font-size: 0.8rem;
+        font-size: 1rem;
         padding: 5px 10px;
     }
     .info {
         width: 80%;
+    }
+    .texto_mapa{
+    font-size: 1.5rem;
     }
     .sul { top: 90%; left: 20%; }
     .norte { top: 70%; left: 15%; }
@@ -232,11 +223,14 @@ img {
         font-size: 2rem;
     }
     .btn {
-        font-size: 1rem;
+        font-size: 1.3rem;
         padding: 6px 12px;
     }
     .info {
-        width: 350px;
+        width: 750px;
+    }
+    .texto_mapa{
+    font-size: 2rem;
     }
     .sul { top: 90%; left: 20%; }
     .norte { top: 70%; left: 15%; }
@@ -245,7 +239,6 @@ img {
     .asia { top: 75%; left: 70%; }
     .australia { top: 90%; left: 75%; }
 }
-  
 @media (min-width:992px){
     header {
         flex-direction: column;
@@ -272,15 +265,18 @@ img {
     .corpo{
     font-size: 2.5rem;
     }
-        h1 {
+    h1 {
         font-size: 2.2rem;
     }
     .btn {
-        font-size: 1.1rem;
+        font-size: 1.6rem;
         padding: 7px 14px;
     }
     .info {
-        width: 400px;
+        width: 900px;
+    }
+    .texto_mapa{
+       font-size: 2.5rem;
     }
     .sul { top:75%; left: 20%; }
     .norte { top: 50%; left: 15%; }
@@ -311,21 +307,24 @@ img {
     .corpo{
     font-size: 2.8rem;
     }
-        h1 {
+    h1 {
         font-size: 2.5rem;
     }
     .btn {
-        font-size: 1.2rem;
+        font-size: 2.2rem;
         padding: 8px 16px;
     }
     .info {
-        width: 500px;
+        width: 1000px;
+    }
+    .texto_mapa{
+    font-size: 2.5rem;
     }
     .sul { top:55%; left: 20%; }
     .norte { top: 40%; left: 15%; }
     .europa { top: 42%; left: 55%; }
-    .africa { top: 50%; left: 50%; }
-    .asia { top: 45%; left: 70%; }
+    .africa { top: 55%; left: 50%; }
+    .asia { top: 50%; left: 70%; }
     .australia { top: 60%; left: 75%; }
 }
 
