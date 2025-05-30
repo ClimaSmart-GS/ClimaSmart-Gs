@@ -97,6 +97,40 @@ header nav ul, footer nav ul {
 .corpo p{
     font-family: 'Bebas Neue', sans-serif;
 }
+h2{
+font-weight: 520;
+text-align: center;
+}
+.secao-dicas {
+    background-color: #eef6f8;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.secao-dicas h2 {
+    margin-top: 0;
+    font-size: 1.5em;
+    color: #000000;
+}
+
+.secao-dicas p {
+    text-align: justify;
+    font-size: 1em;
+    margin: 10px 0;
+}
+
+.secao-dicas ul {
+    padding-left: 20px;
+    line-height: 1.6;
+    font-size: 0.95em;
+}
+
+.secao-dicas li {
+    margin-bottom: 8px;
+}
+
 body {
     text-align: center;
     background-color: #f4f4f4;
