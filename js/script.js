@@ -18,11 +18,11 @@ document.addEventListener("DOMContentLoaded", function () {
       const preparado = document.querySelector('input[name="preparado"]:checked').value;
   
       let mensagem = `<h3>🔍 Análise da sua situação:</h3>`;
-      mensagem += `<p>📍 Região: <strong>${regiao}</strong></p>`;
-      mensagem += `<p>☁️ Clima atual: <strong>${clima}</strong></p>`;
-      mensagem += `<p>📢 Você conhece alertas: <strong>${alertas}</strong></p>`;
-      mensagem += `<p>🏚️ Área de risco: <strong>${infra}</strong></p>`;
-      mensagem += `<p>🧭 Preparado para evacuação: <strong>${preparado}</strong></p>`;
+      mensagem += `<p> Região: <strong>${regiao}</strong></p>`;
+      mensagem += `<p> Clima atual: <strong>${clima}</strong></p>`;
+      mensagem += `<p> Você conhece alertas: <strong>${alertas}</strong></p>`;
+      mensagem += `<p> Área de risco: <strong>${infra}</strong></p>`;
+      mensagem += `<p> Preparado para evacuação: <strong>${preparado}</strong></p>`;
   
       // Análise com base nas respostas
       mensagem += `<hr><h4>🧠 Recomendação personalizada:</h4>`;
