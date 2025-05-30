@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ClimaSmart</title>
     <link rel="stylesheet" href="../estilos/estilo.css">
+    <link rel="stylesheet" href="../estilos/estilomapa.css">
     
 </head>
 <body>
@@ -28,6 +29,7 @@
             <section>
                 <h2>Global</h2>
                 <h1>Mapa de Riscos Climáticos</h1>
+                <div class="map-container">
                 <img class="img_global_mapa" src="../img/mapa-mundi.svg" alt="Mapa Mundi">
                 <div class="buttons">
                   <button class="btn sul" onclick="showInfo('sul')">América do Sul</button>
@@ -36,6 +38,7 @@
                   <button class="btn africa" onclick="showInfo('africa')">África</button>
                   <button class="btn asia" onclick="showInfo('asia')">Ásia</button>
                   <button class="btn australia" onclick="showInfo('australia')">Austrália</button>
+                </div>
                 </div>
                 <div class="info" id="info-sul">
                   <h2>América do Sul</h2>

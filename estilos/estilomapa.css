@@ -1,0 +1,171 @@
+.map-container {
+    position: relative;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .map-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+@media (max-width:600px){
+    .btn {
+        font-size: 0.7rem;
+        padding: 4px 8px;
+    }
+    .info {
+        width: 90%;
+    }
+    .texto_mapa{
+    font-size: 1rem;
+    }
+    .sul { top: 70%; left: 20%; }
+    .norte { top: 30%; left: 15%; }
+    .europa { top: 32%; left: 52%; }
+    .africa { top: 50%; left: 50%; }
+    .asia { top: 35%; left: 70%; }
+    .australia { top: 72%; left: 70%; }
+    .img_global{
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        height: auto;
+    }
+    .galeria img {
+        width: 90%; 
+    }
+}
+@media (min-width:600px){
+    .btn {
+        font-size: 1rem;
+        padding: 5px 10px;
+    }
+    .info {
+        width: 80%;
+    }
+    .texto_mapa{
+    font-size: 1.5rem;
+    }
+    .sul { top: 70%; left: 20%; }
+    .norte { top: 30%; left: 15%; }
+    .europa { top: 32%; left: 52%; }
+    .africa { top: 50%; left: 50%; }
+    .asia { top: 35%; left: 70%; }
+    .australia { top: 72%; left: 70%; }
+    .img_global{
+        display: block;
+        margin: 0 auto;
+        max-width: 90%;
+        height: auto;
+    }
+        .galeria {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .galeria img {
+        width: 45%;
+    }
+
+}
+@media (min-width:768px){
+    h1 {
+        font-size: 2rem;
+    }
+    .btn {
+        font-size: 1.3rem;
+        padding: 6px 12px;
+    }
+    .info {
+        width: 750px;
+    }
+    .texto_mapa{
+    font-size: 2rem;
+    }
+    .sul { top: 70%; left: 20%; }
+    .norte { top: 30%; left: 15%; }
+    .europa { top: 25%; left: 52%; }
+    .africa { top: 50%; left: 50%; }
+    .asia { top: 35%; left: 70%; }
+    .australia { top: 72%; left: 70%; }
+    .img_global{
+        display: flex;
+        float: left;
+        margin: 0 auto;
+        max-width: 60%;
+        height: auto;
+    }
+        .galeria {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .galeria img {
+        width: 45%;
+    }
+}
+@media (min-width:992px){
+    .btn {
+        font-size: 1.6rem;
+        padding: 7px 14px;
+    }
+    .info {
+        width: 900px;
+    }
+    .texto_mapa{
+       font-size: 2.5rem;
+    }
+    .sul { top: 70%; left: 20%; }
+    .norte { top: 30%; left: 15%; }
+    .europa { top: 25%; left: 52%; }
+    .africa { top: 50%; left: 50%; }
+    .asia { top: 35%; left: 70%; }
+    .australia { top: 72%; left: 70%; }
+    .img_global{
+        display: flex;
+        float: left;
+        margin: 0 auto;
+        max-width: 60%;
+        height: auto;
+    }
+        .galeria {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .galeria img {
+        width: 45%;
+    }
+}
+@media (min-width:1300px){
+    .btn {
+        font-size: 2.2rem;
+        padding: 8px 16px;
+    }
+    .info {
+        width: 1000px;
+    }
+    .texto_mapa{
+    font-size: 2.5rem;
+    }
+    .sul { top:95%; left: 20%; }
+    .norte { top: 70%; left: 15%; }
+    .europa { top: 72%; left: 55%; }
+    .africa { top: 90%; left: 50%; }
+    .asia { top: 80%; left: 70%; }
+    .australia { top: 110%; left: 75%; }
+    .galeria {
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        clear: both;
+    }
+    .galeria img {
+        width: 45%;
+    }
+    
+}
