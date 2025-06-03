@@ -197,6 +197,13 @@ img {
   font-size: 14px;
   margin-top: 10px;
 }
+select,.grande,
+    input[type="radio"],
+    input[type="text"] {
+  font-size: 16px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
 
 @media (max-width:600px){
     header nav ul, footer nav ul {
@@ -269,6 +276,13 @@ img {
     padding: 8px;
     font-size: 20px;
   }
+    select,.grande,
+    input[type="radio"],
+    input[type="text"] {
+        font-size: 20px;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
 }
 @media (min-width:768px){
     header nav ul, footer nav ul {
@@ -305,6 +319,13 @@ img {
     padding: 10px;
     font-size: 30px;
     margin-top: 10px;
+    }
+    select,.grande,
+    input[type="radio"],
+    input[type="text"] {
+        font-size: 30px;
+        padding: 8px;
+        margin-bottom: 10px;
     }
 }
 
@@ -349,6 +370,13 @@ img {
     padding: 10px;
     font-size: 40px;
     margin-top: 10px;
+    }
+    select,.grande,
+    input[type="radio"],
+    input[type="text"] {
+        font-size: 40px;
+        padding: 8px;
+        margin-bottom: 10px;
     }
 }
 
@@ -395,5 +423,12 @@ img {
     padding: 10px;
     font-size: 55px;
     margin-top: 10px;
+    }
+    select,.grande,
+    input[type="radio"],
+    input[type="text"] {
+        font-size: 55px;
+        padding: 8px;
+        margin-bottom: 10px;
     }
 }
