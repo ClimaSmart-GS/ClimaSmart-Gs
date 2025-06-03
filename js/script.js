@@ -18,17 +18,17 @@ document.addEventListener("DOMContentLoaded", function () {
       const preparado = document.querySelector('input[name="preparado"]:checked').value;
   
       let mensagem = `<h3>🔍 Análise da sua situação:</h3>`;
-      mensagem += `<p> Região: <strong>${regiao}</strong></p>`;
-      mensagem += `<p> Clima atual: <strong>${clima}</strong></p>`;
-      mensagem += `<p> Você conhece alertas: <strong>${alertas}</strong></p>`;
-      mensagem += `<p> Área de risco: <strong>${infra}</strong></p>`;
-      mensagem += `<p> Preparado para evacuação: <strong>${preparado}</strong></p>`;
+      mensagem += `<p> Região: ${regiao}</p>`;
+      mensagem += `<p> Clima atual: ${clima}</p>`;
+      mensagem += `<p> Você conhece alertas: ${alertas}</p>`;
+      mensagem += `<p> Área de risco: ${infra}</p>`;
+      mensagem += `<p> Preparado para evacuação: ${preparado}</p>`;
   
       // Análise com base nas respostas
       mensagem += `<hr><h4>🧠 Recomendação personalizada:</h4>`;
   
       if (alertas === "Não") {
-        mensagem += `<p>⚠️ Recomendamos acessar a aba <strong>Alertas</strong> para verificar riscos atualizados em sua região.</p>`;
+        mensagem += `<p>⚠️ Recomendamos acessar a aba Alertas para verificar riscos atualizados em sua região.</p>`;
       }
   
       if (infra === "Sim") {
@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
   
       if (preparado === "Não") {
-        mensagem += `<p>🧭 Você pode encontrar orientações na aba <strong>Formulário</strong> e <strong>Alertas</strong> para se preparar melhor.</p>`;
+        mensagem += `<p>🧭 Você pode encontrar orientações na aba Apoio para se preparar melhor.</p>`;
       } else {
         mensagem += `<p>✅ Ótimo! Saber o que fazer em emergências salva vidas.</p>`;
       }
