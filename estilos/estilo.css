@@ -104,8 +104,6 @@ text-align: center;
 font-family: 'Bebas Neue', sans-serif;
     color: #042b54;
 }
-
-
 body {
     text-align: center;
     background-color: #f4f4f4;
@@ -164,6 +162,42 @@ img {
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
     object-fit: cover;
 }
+
+.alerta-tabela {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+.alerta-tabela th,
+.alerta-tabela td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: left;
+  font-size: 14px;
+  white-space: nowrap;
+}
+.alerta-tabela th {
+  background-color: #d93025;
+  color: white;
+}
+.btn-alerta {
+  background-color: #d93025;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 10px;
+}
+.btn-alerta:hover {
+  background-color: #b1271b;
+}
+#regiao {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
 @media (max-width:600px){
     header nav ul, footer nav ul {
         display: flex;
@@ -189,6 +223,18 @@ img {
     h1 {
         font-size: 1.5rem;
     }
+    .btn-alerta {
+        font-size: 12px;
+    }
+    .alerta-tabela {
+    display: block;
+    overflow-x: auto;
+  }
+    .alerta-tabela th,
+    .alerta-tabela td {
+    padding: 6px;
+    font-size: 12px;
+  }
 }
 @media (min-width:600px){
     header nav ul, footer nav ul {
@@ -215,6 +261,14 @@ img {
     h1 {
         font-size: 1.8rem;
     }
+    .btn-alerta {
+        font-size: 20px;
+    }
+    .alerta-tabela th,
+    .alerta-tabela td {
+    padding: 8px;
+    font-size: 20px;
+  }
 }
 @media (min-width:768px){
     header nav ul, footer nav ul {
@@ -239,8 +293,20 @@ img {
     .corpo{
     font-size: 2.2rem;
     }
+    .btn-alerta {
+        font-size: 30px;
+    }
+    .alerta-tabela th,
+    .alerta-tabela td {
+    padding: 8px;
+    font-size: 30px;
+    }
+    #regiao {
+    padding: 10px;
+    font-size: 30px;
+    margin-top: 10px;
+    }
 }
-
 
 @media (min-width:992px){
     header {
@@ -270,6 +336,19 @@ img {
     }
     h1 {
         font-size: 2.2rem;
+    }
+    .btn-alerta {
+        font-size: 40px;
+    }
+    .alerta-tabela th,
+    .alerta-tabela td {
+    padding: 8px;
+    font-size: 40px;
+    }
+    #regiao {
+    padding: 10px;
+    font-size: 40px;
+    margin-top: 10px;
     }
 }
 
@@ -303,5 +382,18 @@ img {
     margin: 0 auto;
     max-width: 110%;
     height: auto;
-}
+    }
+    .btn-alerta {
+        font-size: 55px;
+    }
+    .alerta-tabela th,
+    .alerta-tabela td {
+    padding: 8px;
+    font-size: 55px;
+    }
+    #regiao {
+    padding: 10px;
+    font-size: 55px;
+    margin-top: 10px;
+    }
 }

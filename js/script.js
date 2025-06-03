@@ -90,7 +90,7 @@ document.addEventListener("DOMContentLoaded", function () {
       let html = `
         <h3>📢 Alertas Atuais</h3>
         <table class="alerta-tabela">
-        <tr><th>Tipo</th><th>Local</th><th>Risco</th><th>Órgão Responsável</th></tr>
+        <tr><th>Tipo</th><th>Local</th><th>Risco</th><th>Órgão</th></tr>
     `;
       alertas.forEach(a => {
         html += `<tr>
