@@ -54,4 +54,58 @@ document.addEventListener("DOMContentLoaded", function () {
       resposta.innerHTML = mensagem;
     });
   });
+
+      //Alertas
+      const alertasSimulados = {
+        "Nacional": [
+        { tipo: "Enchente", local: "RS", risco: "Alto", orgao: "Defesa Civil" },
+        { tipo: "Incêndio Florestal", local: "AM", risco: "Crítico", orgao: "INPE" }
+      ],
+        "Sul": [
+        { tipo: "Enchente", local: "Porto Alegre", risco: "Alto", orgao: "Defesa Civil" }
+      ],
+        "Sudeste": [
+        { tipo: "Deslizamento", local: "Serra do Mar", risco: "Moderado", orgao: "CEMADEN" }
+      ],
+        "Centro-Oeste": [
+        { tipo: "Queimada", local: "Pantanal", risco: "Crítico", orgao: "INPE" }
+      ],
+        "Nordeste": [
+        { tipo: "Seca", local: "Bahia", risco: "Alto", orgao: "ANA" }
+      ],
+        "Norte": [
+        { tipo: "Incêndio", local: "Amazônia", risco: "Extremo", orgao: "INPE" }
+      ]
+    };
+    function carregarAlertas() {
+      const regiao = document.getElementById("regiao").value;
+      const alertas = alertasSimulados[regiao] || [];
+      const container = document.getElementById("area-alertas");
+
+      if (alertas.length === 0) {
+        container.innerHTML = "<p>✅ Nenhum alerta crítico no momento.</p>";
+        return;
+      }
+
+      let html = `
+        <h3>📢 Alertas Atuais</h3>
+        <table class="alerta-tabela">
+        <tr><th>Tipo</th><th>Local</th><th>Risco</th><th>Órgão Responsável</th></tr>
+    `;
+      alertas.forEach(a => {
+        html += `<tr>
+        <td>${a.tipo}</td>
+        <td>${a.local}</td>
+        <td>${a.risco}</td>
+        <td>${a.orgao}</td>
+      </tr>`;
+    });
+    html += "</table>";
+    container.innerHTML = html;
+  }
+  function ativarNotificacoes() {
+    alert("🔔 Notificações ativadas! Você será avisado sobre novos alertas na sua região.");
+  }
+
+
   
