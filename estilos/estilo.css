@@ -5,11 +5,11 @@
     margin: 0;
 
 }    
-    .bebas-neue-regular {
+.bebas-neue-regular {
         font-family: "Bebas Neue", sans-serif;
         font-weight: 400;
         font-style: normal;
-      }
+}
       
 
 header,footer{
@@ -74,9 +74,15 @@ header nav ul, footer nav ul {
     font-family: 'Bebas Neue', sans-serif;
     transition: background-color 0.3s;
     list-style: none;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
 }
 .link-menu:hover {
     background-color: rgba(20, 25, 83, 0.9);
+    transform: scale(1.05); 
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.4); 
+
 }
 .corpo{
     margin-right: 0%;
@@ -151,18 +157,27 @@ img {
 }
 .galeria {
     display: flex;
-    gap: 20px;
     justify-content: center;
-    flex-wrap: wrap; /* 🔥 Faz quebrar no mobile */
-    margin: 15px 0;
-}
-.galeria img {
-    width: 350px; /* 🔥 Define o tamanho das imagens */
+    align-items: center;
     border-radius: 10px;
     box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
-    object-fit: cover;
+    padding: 10px;
 }
 
+.galeria img {
+    width: 320px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+
+.galeria img:hover {
+    transform: scale(1.05); 
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.4); 
+}
 .alerta-tabela {
   width: 100%;
   border-collapse: collapse;

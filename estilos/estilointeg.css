@@ -1,0 +1,68 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.corpo {
+    margin-right: 0%;
+    margin-left: 0%;
+    text-align: justify;
+    background-color: #b9b9b8;
+    margin: 10px;               
+    padding: 30px;              
+    max-width: 8000px;           
+    border-radius: 10px;        
+    box-shadow: 0 0 10px rgba(0,0,0,0.1); 
+}
+h2 {
+    text-align: center;
+    color: #004d4d;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+section {
+    background-color: #ffffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    padding: 20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    transition: transform 0.3s ease;
+}
+section:hover {transform: translateY(-5px);}
+section img {
+    width: clamp(120px, 30vw, 220px);
+    height: clamp(120px, 30vw, 220px);
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #004d4d;
+    background-color: #ddd;
+    box-shadow: 1px 1px 6px rgba(0,0,0,0.2);
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+    cursor: pointer;
+}
+section img:hover {
+    transform: scale(1.05); 
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.4); 
+}
+section p {
+    margin: 8px 0;
+    color: #333;
+    font-size: 18px;
+    text-align: center;
+}
+section a {
+    color: #007a7a;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+section a:hover {
+    color: #004d4d;
+    text-decoration: underline;
+}
+
+
