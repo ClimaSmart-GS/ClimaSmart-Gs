@@ -1,0 +1,32 @@
+.corpo {
+    font-size: 1.2em;
+}
+.corpo h2 {
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    color: #042b54;
+}
+.corpo p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+.corpo ul {
+    font-size: 1.2em;
+    line-height: 1.5;
+    margin: 1em 0;
+    padding-left: 2em;
+}
+.corpo li {
+    margin-bottom: 0.8em;
+}
+.corpo a {
+    font-size: 1.2em;
+    color: #042b54;
+    text-decoration: underline;
+    display: block;
+    margin: 1em 0;
+}
+.galeria {
+    margin: 2em 0;
+}

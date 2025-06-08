@@ -10,7 +10,33 @@
         font-weight: 400;
         font-style: normal;
 }
-      
+.corpo {
+    font-size: 1.2em;
+}
+.corpo h2 {
+    font-size: 2em;
+    margin-bottom: 0.8em;
+    color: #042b54;
+}
+.corpo p {
+    font-size: 1.2em;
+    line-height: 1.4;
+    margin-bottom: 1em;
+}
+.corpo section {
+    margin-bottom: 2em;
+}
+.galeria {
+    margin: 1.5em 0;
+}
+.galeria img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.galeria img:hover {
+    transform: scale(1.02);
+}
 
 header,footer{
     background-image: url(../img/planeta-terra-fotorrealista.jpg); 
@@ -140,10 +166,11 @@ header nav ul, footer nav ul {
   text-align: center;
   color: #333;
 }
-
-
-
-
+#regiao {
+    font-size: 0.9em;
+    padding: 5px;
+    margin: 10px 5px;
+}
 .corpo h2{
     font-family: 'Bebas Neue', sans-serif;
     color: #042b54;
