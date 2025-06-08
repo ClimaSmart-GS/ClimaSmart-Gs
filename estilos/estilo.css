@@ -40,14 +40,14 @@
 
 header,footer{
     background-image: url(../img/planeta-terra-fotorrealista.jpg); 
-    background-size: cover;         /* Faz a imagem preencher todo o espaço */
-    background-position: center;    /* Centraliza a imagem */
+    background-size: cover;         /* Faz a imagem preencher o espaço*/
+    background-position: center;    /* Centralizando a imagem */
     background-repeat: no-repeat;   /* Não repete a imagem */
     height: 400px; 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 10px;               /* Margem ao redor do conteúdo */
+    margin: 10px;               /* Margem ao redor dela */
     padding: 30px;              /* Preenchimento interno para o texto */
     max-width: 8000px;           /* Largura máxima do conteúdo */
     border-radius: 10px;
