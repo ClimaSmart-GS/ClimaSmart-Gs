@@ -1,53 +1,24 @@
-.corpo {
-    font-size: 1.2em;
-}
-.corpo h2 {
-    font-size: 2em;
-    margin-bottom: 0.8em;
-}
-.corpo p {
-    font-size: 1.2em;
-    line-height: 1.4;
-    margin-bottom: 1em;
-}
-.climas {
-    font-size: 1.2em;
-    line-height: 1.5;
-}
-.climas li {
-    margin-bottom: 1em;
-}
-.climasForm {
-    font-size: 1.2em;
-    max-width: 800px;
-    margin: 20px auto;
-}
-.climasForm label {
-    display: block;
-    margin: 10px 0;
-}
+.corpo {font-size: 1.2em;}
+.corpo h2 {font-size: 2em;margin-bottom: 0.8em;}
+.corpo p {font-size: 1.2em;line-height: 1.4;margin-bottom: 1em;}
+.climas {font-size: 1.2em;line-height: 1.5;}
+.climas li {margin-bottom: 1em;}
+.climasForm {font-size: 1.2em;max-width: 800px;margin: 20px auto;}
+.climasForm label {display: block;margin: 10px 0;}
 .climasForm select, 
 .climasForm input[type="text"] {
     font-size: 1em;
     padding: 8px;
     margin: 5px 0;
     width: 100%;
-    max-width: 400px;
-}
+    max-width: 400px;}
 #regiao {
     width: 200px;
     font-size: 0.9em;
-    padding: 5px;
-}
-.climasForm input[type="radio"] {
-    margin-right: 10px;
-}
+    padding: 5px;}
+.climasForm input[type="radio"] {margin-right: 10px;}
 .climasForm button {
     font-size: 1em;
     padding: 10px 20px;
-    margin-top: 20px;
-}
-#resposta {
-    font-size: 1.2em;
-    line-height: 1.4;
-}
+    margin-top: 20px;}
+#resposta {font-size: 1.2em;line-height: 1.4;}
