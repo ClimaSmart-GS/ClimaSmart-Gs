@@ -38,7 +38,9 @@ Ajudar na conscientização sobre os eventos climáticos extremos, para que todo
 │
 ├── /img
 │
+
 ├── /js
+
 │   └── script.js
 │
 └── index.html
