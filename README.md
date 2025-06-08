@@ -39,7 +39,7 @@ Página Integrantes: Contém o nome, foto, rm e turma de todos os integrantes do
 
 Página FAQS: Mostra as principais perguntas que usuários do site podem ter.
 
-Página Contato:Contato na nossa equipe e grandes sites com o mesmo propósito do nosso para mais informações. 
+Página Contato:Contato da nossa equipe para mais informações. 
 
 Página Global: Exibe um mapa-múndi interativo destacando os principais riscos climáticos em cada continente, com informações detalhadas sobre eventos extremos como enchentes, queimadas, secas, furacões, entre outros. Também possui um texto explicativo sobre as causas do aumento de eventos climáticos extremos, com imagens ilustrativas e exemplos recentes 
 
