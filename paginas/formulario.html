@@ -29,7 +29,7 @@
                 <h2> Dicas para preencher seu formulário!</h2>
                 <p>Nessa página, você poderá preencher um questionário com seus dados para saber mais sobre o clima e possíveis alertas da sua região.</p>
                 <p>Aqui estão algumas dicas para te ajudar a responder com mais segurança:</p>
-                <ul>
+                <ul class="climas">
                   <li><strong>Clima Chuvoso:</strong> Céu escuro, nuvens carregadas, sensação de ar úmido, gotas no ar ou início de chuvas.</li>
                   <li><strong>Clima Seco:</strong> Céu limpo, calor forte, pele ou nariz ressecados, poeira no ar, vegetação amarelada.</li>
                   <li><strong>Clima Frio:</strong> Temperaturas abaixo de 18°C, vento gelado, necessidade de agasalhos, neblina ou geada.</li>
@@ -41,7 +41,7 @@
               </section>
               
             <section>
-                <form id="climaForm">
+                <form id="climaForm", class="climasForm">
                     <label for="regiao">📍 Qual é a sua região?</label><br>
                     <select id="regiao" required>
                       <option value="">Selecione</option>
@@ -68,6 +68,7 @@
                     </select><br><br>
               
                     <label for="preparado">🧭 Você saberia para onde ir em caso de evacuação?</label><br>
+                    
                     <input type="radio" name="preparado" value="Sim" required> Sim
                     <input type="radio" name="preparado" value="Não"> Não<br><br>
               
