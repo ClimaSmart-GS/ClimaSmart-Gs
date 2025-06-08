@@ -11,18 +11,30 @@ Ajudar na conscientização sobre os eventos climáticos extremos, para que todo
 
 /ClimaSmart
 │
+
 ├── /paginas
+
 │   ├── global.html
+
 │   ├── formulario.html
+
 │   ├── alertas.html
+
 │   ├── psicologia.html
+
 │   ├── faq.html
+
 │   ├── integrantes.html
+
 │   └── contato.html
+
 │
 ├── /estilos
+
 │   ├── estilo.css
+
 │   └── estilomapa.css
+
 │
 ├── /img
 │
