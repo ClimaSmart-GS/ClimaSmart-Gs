@@ -43,6 +43,7 @@ Ajudar na conscientização sobre os eventos climáticos extremos, para que todo
 
 │   └── script.js
 │
+
 └── index.html
 
 🗂️ Estrutura das Páginas
