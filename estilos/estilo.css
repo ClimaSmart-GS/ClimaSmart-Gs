@@ -102,7 +102,23 @@ header nav ul, footer nav ul {
     font-size: 60%;
     padding-left: 50px
 }
+.contato-section{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #000000;
+    text-align: center;
+}
+.contato-section p{
+    font-family: 'Bebas Neue', sans-serif;
+    text-align: center;
 
+}
+
+.titulocontato{
+    font-family: 'Bebas Neue', sans-serif;
+    color: #042b54;
+    font-size: 150% !important;
+    text-align: center;
+}
 /*parte do formulario*/
 /* Oculta o checkbox nativo */
 
