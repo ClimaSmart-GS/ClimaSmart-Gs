@@ -41,8 +41,9 @@
               </section>
               
             <section>
-                <form id="climaForm", class="climasForm">
+                <form id="climasForm", class="climasForm">
                     <label for="regiao">📍 Qual é a sua região?</label><br>
+                    
                     <select id="regiao" required>
                       <option value="">Selecione</option>
                       <option value="Norte">Norte</option>
@@ -56,11 +57,13 @@
                     <input type="text" id="clima" placeholder="Ex: chuvoso, seco, calor intenso..." required><br><br>
               
                     <label for="alertas">📢 Você sabe se há alertas de eventos extremos?</label><br>
-                    <input type="radio" name="alertas" value="Sim" required> Sim
-                    <input type="radio" name="alertas" value="Não"> Não<br><br>
-              
+                        <label><input type="radio" name="preparado" value="Sim" required> Sim</label>
+                        <label><input type="radio" name="preparado" value="Não"> Não</label>
+                        <br>
+
                     <label for="infra">🏠 Sua moradia está em área de risco?</label><br>
                     <select id="infra" required>
+                    
                       <option value="">Selecione</option>
                       <option value="Sim">Sim</option>
                       <option value="Não">Não</option>
@@ -68,10 +71,9 @@
                     </select><br><br>
               
                     <label for="preparado">🧭 Você saberia para onde ir em caso de evacuação?</label><br>
-                    
-                    <input type="radio" name="preparado" value="Sim" required> Sim
-                    <input type="radio" name="preparado" value="Não"> Não<br><br>
-              
+                        <label><input type="radio" name="preparado" value="Sim" required> Sim</label>
+                        <label><input type="radio" name="preparado" value="Não"> Não</label>
+                    <br>
                     <button type="submit" class="grande">Enviar</button>
                   </form>
               
